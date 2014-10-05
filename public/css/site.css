@@ -1,0 +1,25 @@
+body{
+
+}
+
+#main{
+	top:60px;
+}
+
+.navbar{
+	top:10px;
+
+}
+
+.navbar-brand{
+	font-size: 1.8em;
+	font-style: oblique;
+}
+
+.ew-navlink{
+	font-size: 1.4em;
+}
+
+.ew-section-header{
+	padding:155px 50px;
+}
