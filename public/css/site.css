@@ -3,19 +3,14 @@ body{
 }
 
 #main{
-	top:60px;
-}
-
-.navbar{
-	top:10px;
-
+	margin-top:40px;
 }
 
 .navbar-brand{
 	font-size: 1.8em;
 	font-style: oblique;
 }
-
+/*
 .ew-navlink{
 	font-size: 1.4em;
 }
@@ -23,3 +18,4 @@ body{
 .ew-section-header{
 	padding:155px 50px;
 }
+*/
