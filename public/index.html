@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html ng-app="EastWesterly">
 <head lang="en">
+    <!--[if !IE 7]>
+    <style type="text/css">
+        #main {display:table;height:100%}
+    </style>
+    <![endif]-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>East Westerly - Audio/Video</title>
@@ -32,16 +37,21 @@
         </nav>
     </header>
 
-    <div id="main" class="container">
+    <div id="main" class="container page-wrap">
         <div class="view-container">
             <div ng-view class="view-frame"></div>
         </div>
     </div>
     
-    <footer>
-        
-    </footer>
-
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4><a href="/">Home</a></h4>
+                </div>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript" src="libs/jquery/dist/jquery.js"></script>
     <script type="text/javascript" src="libs/angular/angular.js"></script>
     <script type="text/javascript" src="libs/angular-route/angular-route.js"></script>
