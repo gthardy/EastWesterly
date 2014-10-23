@@ -5,9 +5,9 @@ app.controller('contactController', function($scope){
     $scope.Email = "jackson.hardy@averware.com";
     $scope.Phone = "999-999-9999";
     $scope.BestContactTime = "Afternoon 5PM";
+    $scope.Comments = "This website is totally awesome!";
 
     $scope.SendEmail = function(){
-        toastr.success("Email has been sent!", "you will be hearing form us shortly!");
+        toastr.success("You will be hearing from us shortly", "Email Sent");
     };
-
 });

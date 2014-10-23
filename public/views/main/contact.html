@@ -37,6 +37,13 @@
             </div>
 
             <div class="form-group">
+                <label for="comments" class="col-md-2 control-label">Comments</label>
+                <div class="col-md-8">
+                    <textarea cols="10" class="form-control" id="comments" ng-model="Comments" placeholder="Tell us what you think!" />
+                </div>
+            </div>
+
+            <div class="form-group">
                 <div class="col-md-offset-2 col-md-8">
                     <button type="submit" class="btn btn-default" ng-click="SendEmail()">Submit</button>
                 </div>
